@@ -43,13 +43,14 @@ def banner():
 
 def help():
     print(
-        """usage: HiddenWave.py [-h] [-f AUDIOFILE] [-m SECRETMSG] [-o OUTPUTFILE]
+        """usage: steganosWave.py [-h] [-f AUDIOFILE] [-m SECRETMSG] [-o OUTPUTFILE]
 
 optional arguments:
   -h, --help    show this help message and exit
   -f AUDIOFILE  Select Audio File
   -m SECRETMSG  Enter your message
-  -o OUTPUTFILE Your output file path and name"""
+  -o OUTPUTFILE Your output file path and name
+  -e AUDIOFILE  Select Audio File To Extract Message"""
     )
 
 
